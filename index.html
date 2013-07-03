@@ -29,30 +29,29 @@
 	<meta charset='utf-8'>
 	<script src='lib/slides.js'></script>
 
-	<title>ulmAPI.de</title>
+	<script type="text/javascript">
+		function removeTopbar() {
+			document.querySelector('div.topbar').remove();
+		}
+	</script>
+
+	<title>ulmAPI.de - Masterinfo Juli 2013</title>
 </head>
 
 <body style='display: none'>
 
 	<div class='slides layout-normal template-uulm-in'>
-		<!-- 
-			Your slides (<article>s) go here. You can group them using <section>s
-			Every slide must be part of a section. If a section contains a <header>,
-			its content will be used as TOC label. If you don't want to group your
-			slides, just put all of your <article>s in a single <section>.
-		-->
-
 		<section>
 			<article class='title-slide'>
-				<h1 id="title"><br/>ulmAPI.de</h1>
+				<h1 id="title">ulmAPI.de</h1>
 				<h2 id="author">
 					Falco Nogatz, Michael Müller
 				</h2>
-<!--
-				<h2 id="subtitle"></h2>
--->				
+				<h2 id="subtitle">
+					datalove-HSG
+				</h2>
 				<p>
-					<img id="title-header" src='assets/images/ulm_night1.jpg'> 
+					<iframe id="title-header" name="title-frame" src='http://live.ulmapi.de/map#fullscreen' seamless></iframe>
 					<img id="uulm-logo" src='lib/uulm/uulm_logo.svg'>
 				</p>
 			</article>
