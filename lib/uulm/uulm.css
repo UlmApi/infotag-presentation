@@ -158,6 +158,19 @@
   z-index: -1;
 }
 
+.slides.template-uulm-in section article.fill h1 {
+  background:rgba(255, 255, 255, .75);
+  position:absolute;
+  width:100%;
+  bottom:10%;
+  left:0;
+  padding:15px 40px;
+}
+
+.slides.template-uulm-in section article.fill h1 a {
+  color: rgb(163,38,56);
+}
+
 
 .uulm-color {
   color: rgb(125,154,170);
